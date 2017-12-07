@@ -1,0 +1,170 @@
+
+
+/*********************
+WOOCOMMERCE STYLES
+*********************/
+
+.woocommerce-error {
+    z-index: 9;
+}
+
+.breadcrumb-wc {
+	font-weight: 300;
+	font-family : $font-family-sans-serif-alt;
+	letter-spacing: -0.15px;
+	@include rfs(24px);
+}
+
+
+
+.woocommerce ul.products li.product-category .desc {
+	background-color: $gray-200;
+}
+.woocommerce ul.products li.product-category.first .desc {
+	background-color: $bg-medium;
+	color: $white;
+}
+.woocommerce ul.products li.product-category .btn {
+	font-family : $font-family-sans-serif-alt;
+	font-weight: 700;
+	@include rfs(24px);
+	border: none;
+}
+.woocommerce ul.products li.product-category.first .btn {
+	background-color: $white;
+	color: $primary;
+}
+.woocommerce ul.products li.product-category.first .btn:hover {
+	background-color: darken($white, 5%);
+}
+
+
+/*********************
+PAGE ARCHIVE PRODUCT WOOCOMMERCE
+*********************/
+@media only screen and (min-width: 768px) {
+	.woocommerce .sub-header {
+		margin-top:-20%;
+		position: relative;
+		z-index:2;
+	}
+	.woocommerce .sub-header-sur-mesure {
+		margin-top:-15%;
+		position: relative;
+		padding-right:5%;
+		z-index:2;
+	}
+}
+@media only screen and (min-width: 1460px) {
+	.woocommerce .sub-header {
+		margin-top:-25%;
+	}
+}
+@media only screen and (min-width: 1460px) {
+	.tax-product_cat.woocommerce ul.products li.product.first, .tax-product_cat.woocommerce-page ul.products li.product.first {
+		padding-right: 5%;
+	}
+	.tax-product_cat.woocommerce ul.products li.product.last, .tax-product_cat.woocommerce-page ul.products li.product.last {
+		padding: 0 2.5%;
+	}
+}
+.woocommerce .thumb-product img {
+	max-height: 380px;
+}
+
+.woocommerce .desc-product .infos1 .title {
+	@include rfs(36px);
+}
+.woocommerce .desc-product .infos1 .sub-title {
+	@include rfs(24px);
+	font-family: $font-family-sans-serif-r;
+	font-weight: 500;
+}
+.woocommerce .desc-product .excerpt {
+	@include rfs(24px);
+}
+.woocommerce .desc-product .infos2 .link-compo a {
+	@include rfs(18px);
+	font-family: $font-family-sans-serif-alt;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.woocommerce .desc-product .infos2 .link-product a {
+	@include rfs(24px);
+	font-family: $font-family-sans-serif-alt;
+	font-weight: 700;
+	background-color: $bg-medium;
+}
+.woocommerce .desc-product .infos2 .link-product a:hover {
+	background-color: darken($bg-medium, 5%);
+}
+.woocommerce .desc-product .infos2 .regular-price {
+	@include rfs(24px);
+	font-family: $font-family-sans-serif-h;
+	color: $gray-550;
+	text-decoration: line-through;
+}
+.woocommerce .desc-product .infos2 .sale-price {
+	@include rfs(36px);
+	font-family: $font-family-sans-serif-h;
+	color: $red;
+	font-weight: 700;
+}
+
+
+/*********************
+PAGE CHECKOUT WOOCOMMERCE
+*********************/
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+	max-width: unset;
+}
+
+
+/*********************
+PAGE SINGLE PRODUCT WOOCOMMERCE
+*********************/
+.single-product .sub-title .h2 {
+    font-family: $font-family-sans-serif-alt;
+}
+.single-product .title .h2 {
+	color: $gray-800;
+}
+.single-product .desc {
+    border-left: 5px solid $primary;
+	@include rfs(24px);
+}
+.woocommerce button.button.alt, .woocommerce a.button.alt {
+	background-color: $primary;
+}
+.woocommerce button.button.alt:hover, .woocommerce a.button.alt:hover {
+	background-color: darken($primary, 5%);
+}
+
+
+/*********************
+PAGE MY ACCOUNT WOOCOMMERCE
+*********************/
+.woocommerce-account .woocommerce {
+	padding: 8em 0;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul {
+    padding: 0;
+}
+.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li a {
+    color: $white;
+    background-color: $gray-600;
+    border-radius: 3px;
+    padding: 10px 15px;
+    display: inline-block;
+    width: 100%;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li.is-active a {
+	background-color: $bg-medium;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li a:hover {
+	background-color: darken($bg-medium, 15%);
+}

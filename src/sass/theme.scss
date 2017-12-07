@@ -1,0 +1,19 @@
+
+
+@import "custom/variables"; // Override variables boostrap 4
+
+@import "../../node_modules/bootstrap/scss/bootstrap"; // Boostrap 4 beta
+@import "../../node_modules/font-awesome/scss/font-awesome"; // Font Awesome 4.7 // npm install font-awesome --save-dev
+@import "../../node_modules/rfs/scss/rfs"; // Responsive Font Sizes // npm install rfs --save-dev
+
+// Core Wordpress and theme compatible bootstrap 4
+@import "core/wordpress";
+@import "core/theme";
+
+// Plugins Wordpress
+@import "custom/plugins/widgets"; // beaver builder
+@import "custom/plugins/beaver-builder"; // beaver builder
+@import "custom/plugins/woocommerce"; // woocommerce
+
+// Style
+@import "custom/style";

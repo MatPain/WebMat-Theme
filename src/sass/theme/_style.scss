@@ -1,0 +1,341 @@
+h1 {
+    @include rfs(3.75rem);
+    color: #123456;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+@media only screen and (min-width: 768px) {
+	.affix {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 999;
+		width: 100%;
+		background-color: $white;
+		border-bottom: 1px solid $brand-primary;
+		transition: 0.3s all;
+	}
+	.admin-bar .affix {
+		top: 32px;
+	}
+}
+
+/*********************
+TOPBAR
+*********************/
+#topbar .infos {
+    background-color: $gray-light;
+    color: $white;
+	padding: 0.1rem 0.1rem 0.1rem 1.5rem;
+    border-bottom-left-radius: 0.4rem;
+}
+@media only screen and (max-width: 767px) {
+	#topbar .infos {
+		border-radius: 0;
+	}
+}
+
+/*********************
+HEADER
+*********************/
+header {
+
+}
+
+
+/*********************
+MENU
+*********************/
+.navbar .navbar-nav .nav-link {
+	text-transform: uppercase;
+	color: $black;
+    font-size: 1.3em;
+    line-height: 1em;
+    padding: 0 0.75rem;
+}
+@media only screen and (min-width: 992px) {
+	ul#main-menu li:last-child a {
+		padding-right: 0;
+	}
+}
+.navbar .dropdown:hover > .dropdown-menu { /* on hover show sub menu */
+	display: block;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: $white;
+}
+
+/*********************
+SUB HEADER
+*********************/
+#sub-bar {
+	background-color: $gray-dark;
+	color: $white;
+	padding: 1.75rem 0;
+	position: relative;
+	z-index: 2;
+}
+#sub-bar h1 {
+	margin: auto;
+	font-size: 1.5rem;
+}
+#sub-bar .author {
+	color: $gray-dark;
+    background-color: $white;
+    display: inline-block;
+    padding: 2.5px 10px;
+    border-radius: 2px;
+}
+#sub-bar .breadcrumbs {
+	text-align: right;
+	font-size: 90%;
+	margin: auto;
+}
+#sub-bar .breadcrumbs a:hover {
+	color: #333;
+}
+
+
+/*********************
+PAGE ARCHIVE
+*********************/
+.archive article, .blog article, .search article {
+    margin: 20px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*********************
+PAGE SINGLE POST
+*********************/
+.entry-meta {
+	color: $gray;
+	font-size: 95%;
+}
+.entry-meta span {
+	color: $gray-dark;
+	font-size: 105%;
+	display: inline-block;
+}
+nav.post-navigation {
+    margin: 20px auto;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/*********************
+PAGE 404
+*********************/
+.error404 .wrapper {
+    margin-top: -270px; /* header + subheader */
+    margin-bottom: -72px; /* footer */
+    position: relative;
+    z-index: 1;
+	padding-top: 104px;
+}
+.error404.admin-bar .wrapper {
+	margin-top: -334px; /* admin-bar + header + subheader */
+	padding-top: 136px;
+}
+.error404 .center-row {
+    height: 100vh;
+}
+
+
+/*********************
+WIDGETS
+*********************/
+.widget-title {
+    color: #2b373a;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-bottom: 22px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.widget {
+	ul {
+		margin: 0;
+	}
+}
+.widget {
+    padding: 20px 15px;
+    background-color: $white;
+    border: 1px solid #ebebeb;
+	margin-bottom: 20px;
+}
+.widget:last-child {
+    margin-bottom: auto;
+}
+
+/*********************
+POSTS TABS WIDGET
+*********************/
+.widget-posts-tabs ul {
+	padding: 0;
+	list-style: none;
+}
+.widget-posts-tabs .widgettitle {
+	margin: auto;
+}
+.posts-tabs-nav {
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+.posts-tabs-nav li {
+	display: inline-block;
+}
+.posts-tabs-nav.tab-count-1 li { width: 100%; }
+.posts-tabs-nav.tab-count-2 li { width: 50%; }
+.posts-tabs-nav.tab-count-3 li { width: 33.333%; }
+.posts-tabs-nav.tab-count-4 li { width: 25%; }
+
+.posts-tabs-nav li a {
+	font-size: 1.125em;
+	display: block;
+	padding: 5px 0;
+	margin-bottom: -2px;
+	border-bottom: 2px solid transparent;
+}
+.posts-tabs-nav li a:hover {
+	border-bottom-color: $brand-primary;
+}
+.posts-tabs-nav li.active a {
+	border-bottom-color: $brand-primary;
+}
+.posts-tabs-nav li.active a:hover {
+	border-bottom-color: $gray-dark;
+}
+.posts-tabs-container {
+	padding: 5px 0;
+}
+.post-tab .tab-item-thumbnail {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	min-height: 150px;
+	background-size: cover;
+	background-position: center;
+	border-width: 1px;
+	background-repeat: no-repeat;
+}
+.post-tab img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+.post-tab .tab-item-title {
+	font-size: 1.2rem;
+}
+.post-tab .tab-item-date {
+	display: inline-block;
+	margin-right: 5px;
+	color: #ccc;
+}
+.post-tab .tab-item-author {
+	display: inline-block;
+	margin-right: 5px;
+	color: #ccc;
+}
+.post-tab .tab-item-category {
+	display: inline-block;
+	color: #ccc;
+}
+
+.post-tab .tab-item-avatar {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 30px;
+	border-width: 2px;
+}
+.avatars-enabled .tab-item-inner {
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
+	margin: auto auto auto 5px;
+}
+.post-tab .tab-item-name {
+
+}
+.post-tab .thumb-icon.small {
+	top: 8px;
+	left: 8px;
+	position: absolute;
+	font-size: 18px;
+}
+.post-tab .hover-thumbnail {
+	transition: 0.20s all;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0,0,0,.3);
+	color: white;
+	font-size: 50px;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	position: absolute;
+}
+.post-tab .tab-item-thumbnail .hover-thumbnail {
+	font-size: 35px;
+}
+.post-tab .tab-item-avatar .hover-thumbnail {
+	font-size: 15px;
+	border-radius: 4px;
+	text-indent: 5px;
+}
+.post-tab .tab-item-thumbnail:hover .hover-thumbnail, .tab-item-avatar:hover .hover-thumbnail {
+	opacity: 1;
+}
+
+/*********************
+COMMENTS
+*********************/
+#comments {
+    padding-top: 10px;
+}
+
+/*********************
+DIVERS
+*********************/
+#main {
+	/*border: 1px solid #ebebeb;*/
+    /*background-color: $white;*/
+    /*padding: .5rem;*/
+}
+
+/*********************
+FOOTER
+*********************/
+footer.footer {
+	position: relative;
+	z-index: 2;
+	background-color: $bg-medium;
+	color: $white;
+}
+footer.footer .copyright {
+    font-size: 95%;
+}
+footer.footer a.nav-link {
+    color: $white;
+    padding: 0.25em;
+}
+footer.footer a.nav-link:hover {
+    color: $gray;
+}
+footer.footer a.nav-link:after {
+    content: "-";
+	color: $white;
+    margin-left: 0.5em;
+}

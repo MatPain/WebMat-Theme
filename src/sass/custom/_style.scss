@@ -1,0 +1,263 @@
+/*
+** Style 1.0
+*/
+
+/*********************
+GENERAL STYLES
+*********************/
+.fm-h {
+	font-family : $font-family-sans-serif-h;
+}
+.fm-alt {
+	font-family : $font-family-sans-serif-alt;
+}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+@media only screen and (min-width: 991px) {
+	.affix {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        background-color: $white;
+        border-bottom: 1px solid $primary;
+        transition: .3s all;
+        padding: 5px!important;
+        max-width: 100%;
+    }
+	.admin-bar .affix {
+		top: 32px;
+	}
+    .affix .navbar-collapse {
+        max-width: 960px;
+    }
+}
+@media only screen and (min-width: 1260px) {
+    .affix .navbar-collapse {
+        max-width: 1200px;
+    }
+}
+
+/*********************
+HEADER
+*********************/
+header#wrapper-navbar {
+	background-color: $gray-200;
+}
+
+
+/*********************
+MENU
+*********************/
+.navbar .navbar-nav .nav-link {
+	/*text-transform: uppercase;*/
+	color: $gray-700;
+	@include rfs(20px);
+    line-height: 1em;
+    padding: 0 0.5rem;
+	white-space: nowrap;
+}
+@media only screen and (min-width: 992px) {
+	ul#main-menu li:last-child a {
+		padding-right: 0;
+	}
+	ul.dropdown-menu li:last-child a {
+	    padding-right: 1rem!important;
+	}
+}
+.navbar .dropdown:hover > .dropdown-menu {
+	display: block;
+}
+
+.navbar-nav .dropdown-menu .menu-item a.nav-link {
+    padding: .5rem 1rem;
+}
+/*********************
+SUB HEADER
+*********************/
+#sub-bar {
+	background-color: $gray-500;
+	color: $white;
+	padding: 5em 0;
+	position: relative;
+	z-index: 2;
+	min-height: 200px;
+}
+#sub-bar h1 {
+	color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: auto;
+	@include rfs(30px);
+}
+#sub-bar h1 span {
+	margin: auto;
+	color: white;
+    background-color: $bg-medium;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: auto;
+	border-radius: 6px;
+}
+#sub-bar h1 span.alt-title {
+    background-color: transparent;
+	font-family : $font-family-sans-serif-alt;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+/*********************
+PAGE CONTENT WITH FL BUILDER EDIT
+*********************/
+.fl-builder-content {
+	overflow: hidden;
+}
+.fl-builder-edit .fl-builder-content {
+	overflow: visible;
+}
+
+/*********************
+PAGE CONTENT WITH FL BUILDER
+*********************/
+.fl-builder .container#content {
+	max-width: 100%;
+    padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+
+
+/*********************
+PAGE ARCHIVE
+*********************/
+.archive article, .blog article, .search article {
+    margin: 20px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $gray-300;
+}
+.blog .entry-header a {
+	@include rfs(24px);
+	color: $bg-medium;
+}
+.blog .entry-header a:hover {
+	color: darken($bg-medium, 5%);
+}
+
+/*********************
+PAGE SINGLE POST
+*********************/
+.entry-meta {
+	color: $gray-500;
+	font-size: 95%;
+}
+.entry-meta span {
+	color: $gray-800;
+	font-size: 105%;
+	display: inline-block;
+}
+nav.post-navigation {
+    margin: 20px auto;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/*********************
+PAGE 404
+*********************/
+.error404 .center-row {
+    min-height: 50vh;
+}
+
+
+/*********************
+WIDGETS
+*********************/
+.widget-title {
+    color: #2b373a;
+	@include rfs(1.25em);
+    font-weight: 700;
+    margin-bottom: 22px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.widget {
+	ul {
+		margin: 0;
+	}
+}
+.widget {
+    padding: 20px 15px;
+    background-color: $white;
+    border: 1px solid #ebebeb;
+	margin-bottom: 20px;
+}
+.widget:last-child {
+    margin-bottom: auto;
+}
+
+
+/*********************
+COMMENTS
+*********************/
+#comments {
+    padding-top: 10px;
+}
+
+/*********************
+DIVERS
+*********************/
+#main {
+	/*border: 1px solid #ebebeb;*/
+    /*background-color: $white;*/
+    /*padding: .5rem;*/
+}
+
+/*********************
+FOOTER
+*********************/
+footer.footer {
+	position: relative;
+	z-index: 2;
+	background-color: $bg-dark;
+	color: $white;
+}
+
+
+
+footer.footer .text-footer {
+
+}
+footer.footer .text-footer .infos {
+    @include rfs(24px);
+}
+footer.footer .email-newsletter label {
+	font-family : $font-family-sans-serif-alt;
+	@include rfs(24px);
+}
+footer.footer .copyright {
+    font-size: 95%;
+}
+footer.footer a.nav-link {
+    color: $white;
+    padding: 0.25em;
+}
+footer.footer a.nav-link:hover {
+    color: $custom-color;
+}
+footer.footer a.nav-link:after {
+    content: "-";
+	color: $white;
+    margin-left: 0.5em;
+}
+footer.footer li:last-child a.nav-link:after {
+    content: "";
+}

@@ -1,0 +1,637 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WebMat\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2017-12-07 11:30+0100\n"
+"POT-Revision-Date: Mon Jul 04 2016 09:13:18 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: WebMat <contact@webmat.pro>\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+"X-Poedit-SearchPathExcluded-1: sass\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+"X-Poedit-SearchPathExcluded-4: dist\n"
+
+#: 404.php:29
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:36
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: author.php:40 inc/custom-comments.php:30
+msgid "Website"
+msgstr ""
+
+#: author.php:47
+msgid "Profile"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:54 comments.php:75
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:59 comments.php:81
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:38
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:94
+msgid "Please select a menu"
+msgstr ""
+
+#: header.php:121
+msgid "Search Results for: "
+msgstr ""
+
+#: header.php:126
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/admin-options.php:14 inc/admin-options.php:15
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/admin-options.php:29
+msgid "Options"
+msgstr ""
+
+#: inc/admin-options.php:37
+msgid "Tag Header"
+msgstr ""
+
+#: inc/admin-options.php:43
+msgid "Only HTML code for include just before the end of </head>"
+msgstr ""
+
+#: inc/admin-options.php:51
+msgid "Tag Body"
+msgstr ""
+
+#: inc/admin-options.php:57
+msgid "Only HTML code for include just before the end of </body>"
+msgstr ""
+
+#: inc/admin-options.php:65
+msgid "Update"
+msgstr ""
+
+#: inc/admin.php:30
+#, php-format
+msgid "Developed with passion by %1$s "
+msgstr ""
+
+#: inc/bootstrap-wp-navwalker.php:207
+msgid "Add a menu"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:15
+msgid "Resources"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:16
+msgid "Resource"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:17
+msgid "All Resources"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:18
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:19
+msgid "Add New Resource"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:20
+msgid "Edit"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:21
+msgid "Edit Resource"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:22
+msgid "New Resource"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:23
+msgid "View Resource"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:24
+msgid "Search Resource"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:25
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: inc/cpt/register-cpt.php:26
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: inc/cpt/register-cpt.php:29
+msgid "Repository Resources"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:14
+msgid "Resource Categories"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:15
+msgid "Resource Category"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:16
+msgid "Search Resource Categories"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:17
+msgid "All Resource Categories"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:18
+msgid "Parent Resource Category"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:19
+msgid "Parent Resource Category:"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:20
+msgid "Edit Resource Category"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:21
+msgid "Update Resource Category"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:22
+msgid "Add New Resource Category"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:23
+msgid "New Resource Category Name"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:38
+msgid "Resource Tags"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:39
+msgid "Resource Tag"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:40
+msgid "Search Resource Tags"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:41
+msgid "All Resource Tags"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:42
+msgid "Parent Resource Tag"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:43
+msgid "Parent Resource Tag:"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:44
+msgid "Edit Resource Tag"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:45
+msgid "Update Resource Tag"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:46
+msgid "Add New Resource Tag"
+msgstr ""
+
+#: inc/cpt/register-taxonomy.php:47
+msgid "New Resource Tag Name"
+msgstr ""
+
+#: inc/custom-comments.php:24
+msgid "Name"
+msgstr ""
+
+#: inc/custom-comments.php:27
+msgid "Email"
+msgstr ""
+
+#: inc/custom-comments.php:49
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/custom-header.php:38
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Theme Layout Settings"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Container width and sidebar defaults"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Container Width"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Fixed width container"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Full width container"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Sidebar Positioning"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid ""
+"Set sidebar's default position. Can either be: right, left, both or none. "
+"Note: this can be overridden on individual pages."
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Left & Right sidebars"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "No sidebar"
+msgstr ""
+
+#: inc/plugins/woocommerce.php:166
+msgid "View Cart"
+msgstr ""
+
+#: inc/plugins/woocommerce.php:166
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/security.php:27
+msgid "<strong>ERROR</strong> Invalid Username or Password"
+msgstr ""
+
+#: inc/setup.php:38
+msgid "The Main Menu"
+msgstr ""
+
+#: inc/setup.php:39
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/setup.php:197
+msgid "Read"
+msgstr ""
+
+#: inc/setup.php:197
+msgid "... Read more"
+msgstr ""
+
+#: inc/setup.php:219
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: inc/sidebar.php:53
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:55
+msgid "Right sidebar widget area"
+msgstr ""
+
+#: inc/sidebar.php:63
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:65
+msgid "Left sidebar widget area"
+msgstr ""
+
+#: inc/sidebar.php:73
+msgid "Footer Full"
+msgstr ""
+
+#: inc/sidebar.php:75
+msgid "Widget area below main content and above footer"
+msgstr ""
+
+#: inc/sidebar.php:83
+msgid "Col 1 Footer"
+msgstr ""
+
+#: inc/sidebar.php:85
+msgid "Widget Col 1 footer"
+msgstr ""
+
+#: inc/sidebar.php:93
+msgid "Col 2 Footer"
+msgstr ""
+
+#: inc/sidebar.php:95
+msgid "Widget Col 2 footer"
+msgstr ""
+
+#: inc/sidebar.php:103
+msgid "Col 3 Footer"
+msgstr ""
+
+#: inc/sidebar.php:105
+msgid "Widget Col 3 footer"
+msgstr ""
+
+#: inc/template-tags.php:34 inc/template-tags.php:55
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:34 inc/template-tags.php:55
+msgid "at"
+msgstr ""
+
+#: inc/template-tags.php:36 inc/template-tags.php:57
+msgid "by"
+msgstr ""
+
+#: inc/template-tags.php:42 inc/template-tags.php:63
+msgid "and"
+msgstr ""
+
+#: inc/template-tags.php:42 inc/template-tags.php:63
+msgid "updated on"
+msgstr ""
+
+#: inc/template-tags.php:88
+#, php-format
+msgid "Categories: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:132
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:135
+msgctxt "Next post link"
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:16
+msgid "Posts Tabs"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:18
+msgid "List posts, comments, and/or tags with or without tabs."
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:62 inc/widgets/posts-tabs.php:348
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:63
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:64 inc/widgets/posts-tabs.php:398
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:65 inc/widgets/posts-tabs.php:414
+#: inc/widgets/posts-tabs.php:437
+msgid "Tags"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:164 inc/widgets/posts-tabs.php:226
+msgid "The"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:165 inc/widgets/posts-tabs.php:227
+msgid "By"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:166 inc/widgets/posts-tabs.php:228
+msgid "In"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:265
+msgid "commented:"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:344
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:352
+msgid "Enable recent posts"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:356 inc/widgets/posts-tabs.php:376
+msgid "Show thumbnails"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:359 inc/widgets/posts-tabs.php:379
+#: inc/widgets/posts-tabs.php:409
+msgid "Items to show"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:363 inc/widgets/posts-tabs.php:383
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:364 inc/widgets/posts-tabs.php:384
+msgid "All"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:368
+msgid "Most Popular"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:372
+msgid "Enable most popular posts"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:387
+msgid "Post with most comments from:"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:389
+msgid "All time"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:390
+msgid "This year"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:391
+msgid "This month"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:392
+msgid "This week"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:393
+msgid "Past 24 hours"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:402
+msgid "Enable recent comments"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:406
+msgid "Show avatars"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:418
+msgid "Enable tags"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:422
+msgid "Tab Order"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:425
+msgid "Recent posts"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:429
+msgid "Most popular"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:433
+msgid "Recent comments"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:442
+msgid "Tab Info"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:446
+msgid "Show dates"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:450
+msgid "Show author"
+msgstr ""
+
+#: inc/widgets/posts-tabs.php:454
+msgid "Show categories"
+msgstr ""
+
+#: loop-templates/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: loop-templates/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: loop-templates/content-none.php:34
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: loop-templates/content-none.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: loop-templates/content-page.php:25 loop-templates/content-single.php:60
+#: loop-templates/content.php:37
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search &hellip;"
+msgstr ""

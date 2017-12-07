@@ -1,0 +1,146 @@
+/* =Theme css compatibity bootstrap 4
+-------------------------------------------------------------- */
+
+:focus {
+	outline: 0;
+}
+a, a:hover {
+	transition: 0.3s all;
+}
+
+
+p, ul {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.h1, h1 {
+    @include rfs($h1-font-size);
+}
+.h2, h2 {
+    @include rfs($h2-font-size);
+}
+.h3, h3 {
+    @include rfs($h3-font-size);
+}
+.h4, h4 {
+    @include rfs($h4-font-size);
+}
+.h5, h5 {
+    @include rfs($h5-font-size);
+}
+.h6, h6 {
+    @include rfs($h6-font-size);
+}
+
+iframe {
+	margin: auto;
+    display: block;
+	width: 1px;
+	min-width: 100%;
+	*width: 100%;
+}
+
+.entry-content blockquote, .wp-editor blockquote, blockquote {
+	padding: 0.5em 0.5em 0 .75em;
+	border-left: 3px solid map-get($theme-colors, "primary");
+	display: table;
+	background-color: #f2f2f2;
+	margin-bottom: 1rem;
+}
+
+// Limit featured image size to 100%
+img.wp-post-image,
+article img,
+figure,
+img,
+#secondary img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Skip to content link
+a.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+}
+
+// Reset Jumbotron default margin
+.jumbotron { margin-bottom: 0px; }
+
+// Bootstrap4 Menu
+.menu-item {
+  float: left;
+  list-style: none;
+}
+.navbar-nav .dropdown-menu {
+	float: left;
+	margin: 0.15rem 1rem;
+}
+.navbar-nav .dropdown-menu .dropdown-menu {
+  display: block;
+  margin-left: 10px;
+}
+
+.navbar-nav .dropdown-menu .menu-item {
+  width: 100%;
+  a.nav-link {
+    padding: $nav-link-padding-y $nav-link-padding-x;
+
+  }
+}
+
+// Hover with pointer
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+input, textarea {
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: $black;
+    background-color: $white;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+// Clearing after gallery
+.gallery:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+// Clearing after widget
+aside.widget{clear:both;}
+
+// Adjusting brand link if h1 is used
+h1.navbar-brand {
+  a {
+  color:inherit;
+  }
+  a:hover {
+    text-decoration:none;
+  }
+}
+
+// Tiny MCE Editor
+body#tinymce {
+    margin: 0.5rem;
+}

@@ -1,0 +1,44 @@
+/*
+* Use existing Bootstrap 4 classes and
+* variables to extend - Beaver Builder Plugin
+*
+* version 1.0
+*/
+
+
+/*********************
+CSS BEAVER BUILDER
+*********************/
+@media only screen and (max-width: 1459px) {
+    .col1-banner1 {
+        display:none!important;
+    }
+}
+
+
+
+.number {
+    @include rfs(36px);
+    font-family : $font-family-sans-serif-h;
+    font-weight: 700;
+    color: $white!important;
+    line-height: 1.45;
+    background-color: $bg-dark;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    top: 4px;
+    position: relative;
+}
+.col-title {
+    padding-left: 2.5rem!important;
+}
+.sub-title {
+   position: relative;
+   top: -10px;
+   @include rfs(24px);
+   font-family : $font-family-sans-serif-r;
+   font-weight: 500;
+}
