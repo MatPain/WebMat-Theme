@@ -15,7 +15,7 @@ $container = get_theme_mod( 'theme_container_type' );
 
 <footer class="footer pt-4 pb-4 clearfix" id="colophon">
 	<div class="" id="wrapper-footer">
-		<div class="<?= $container ?>">
+		<div class="<?php echo $container ?>">
 			<?php if ( is_active_sidebar( 'footer1' ) || is_active_sidebar( 'footer2' ) || is_active_sidebar( 'footer3' ) ) { ?>
 				<div class="row">
 

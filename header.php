@@ -35,7 +35,7 @@ $container = get_theme_mod( 'theme_container_type' );
 	'webmat' ); ?></a>
 
 	<header class="wrapper wrapper-navbar pt-1 pb-1" id="wrapper-navbar">
-			<div class="<?= $container ?> wrapper-header">
+			<div class="<?php echo $container ?> wrapper-header">
 				<div class="row">
 
 					<div class="d-flex col-sm-12 col-lg-3 align-items-center justify-content-center justify-content-lg-start">
@@ -64,7 +64,7 @@ $container = get_theme_mod( 'theme_container_type' );
 
 						<nav class="navbar navbar-expand-lg navbar-light text-center text-lg-right">
 
-							<div class="<?= $container ?> wrapper-header pr-0 pl-0 pt-lg-4 justify-content-center" data-toggle="affix">
+							<div class="<?php echo $container ?> wrapper-header pr-0 pl-0 pt-lg-4 justify-content-center" data-toggle="affix">
 
 								<button class="navbar-toggler mb-1 mt-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 									<i class="fa fa-bars" aria-hidden="true"></i>
