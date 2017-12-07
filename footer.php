@@ -20,7 +20,7 @@ $container = get_theme_mod( 'theme_container_type' );
 				<div class="row">
 
 					<?php if ( is_active_sidebar( 'footer1' ) ) { ?>
-						<div id="col1" class="col-md-12 col-lg-4 pb-2">
+						<div id="col1" class="col-md-12 col-lg-4 pb-2 ml-auto mr-auto">
 
 							<?php dynamic_sidebar( 'footer1' ); ?>
 
@@ -28,7 +28,7 @@ $container = get_theme_mod( 'theme_container_type' );
 					<?php } ?>
 
 					<?php if ( is_active_sidebar( 'footer2' ) ) { ?>
-						<div id="col2" class="col-md-12 col-lg-4 pb-2">
+						<div id="col2" class="col-md-12 col-lg-4 pb-2 ml-auto mr-auto">
 
 							<?php dynamic_sidebar( 'footer2' ); ?>
 
@@ -36,7 +36,7 @@ $container = get_theme_mod( 'theme_container_type' );
 					<?php } ?>
 
 					<?php if ( is_active_sidebar( 'footer3' ) ) { ?>
-						<div id="col3" class="col-md-12 col-lg-4 pb-2">
+						<div id="col3" class="col-md-12 col-lg-4 pb-2 ml-auto mr-auto">
 
 							<?php dynamic_sidebar( 'footer3' ); ?>
 
